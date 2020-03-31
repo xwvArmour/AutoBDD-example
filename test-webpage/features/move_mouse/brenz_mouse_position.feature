@@ -12,9 +12,9 @@ Feature: brenz.net mouse tracker page
     When  I wave mouse at the 180,100 position of the screen
     When  I park mouse at the topLeft position of the screen
     Then  I expect mouse at the topLeft position of the screen
-    When  I park mouse at the topRight position of the screen
+    When  I hover mouse at the topRight position of the screen
     Then  I expect mouse at the topRight position of the screen
-    When  I park mouse at the bottomLeft position of the screen
+    When  I hover mouse at the bottomLeft position of the screen
     Then  I expect mouse at the bottomLeft position of the screen
     When  I park mouse at the bottomRight position of the screen
     Then  I expect mouse at the bottomRight position of the screen
