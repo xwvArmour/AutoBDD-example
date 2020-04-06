@@ -1,5 +1,5 @@
 @test-download
-Feature: Open file
+Feature: File download and validation
 
   As a QA Engineer
   I want to open browser to download a few files and investigate file contents
@@ -36,7 +36,7 @@ Feature: Open file
 
   Scenario: Browse directory and open file - PNG file
     Given I open the file "ENV:PROJECTRUNPATH"
-    And   I click the element "a=test-webpage/"
+    And   I click the element "a=test-webpages/"
     And   I click the element "a=support/"
     And   I click the element "a=testimages/"
     And   I click the element "a=Yukon_Logo.png"
